@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <SwitchPreference
+        android:defaultValue="true"
+        android:icon="@drawable/ic_bell"
+        android:key="@string/key_notification"
+        android:title="@string/label_notification" />
+
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/items_label"
+        android:entryValues="@array/items_value"
+        android:icon="@drawable/ic_theme_light_dark"
+        android:key="@string/key_theme"
+        android:title="@string/label_theme"
+        app:allowDividerAbove="true"
+        app:allowDividerBelow="true" />
+</PreferenceScreen>

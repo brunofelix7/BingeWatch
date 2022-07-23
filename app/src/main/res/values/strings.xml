@@ -1,0 +1,55 @@
+<resources>
+    <!-- TODO: App name -->
+    <string name="app_name">Binge-Watch</string>
+
+    <!-- TODO: Menu main -->
+    <string name="title_action_search">Search</string>
+    <string name="title_action_filter">Sort by</string>
+    <string name="title_action_settings">Settings</string>
+
+    <!-- TODO: Menu add -->
+    <string name="title_action_add">Add</string>
+    <string name="title_action_start_date">Start date</string>
+
+    <!-- TODO: Menu details -->
+    <string name="title_action_edit">Edit</string>
+    <string name="title_action_delete">Delete</string>
+
+    <!-- TODO: Preferences -->
+    <string name="label_notification">Notifications</string>
+    <string name="label_theme">Theme</string>
+    <string name="label_auto">Automatic</string>
+    <string name="label_night_off">Light</string>
+    <string name="label_night_on">Night</string>
+    <string name="value_auto">1</string>
+    <string name="value_night_off">2</string>
+    <string name="value_night_on">3</string>
+
+    <!-- TODO: Preferences keys -->
+    <string name="key_notification">notification</string>
+    <string name="key_theme">theme</string>
+    <string name="key_sort_by">sort-by</string>
+    <string name="key_series_id">series-id</string>
+    <string name="key_series_name">series-name</string>
+    <string name="key_series_obj">series-obj</string>
+
+    <!-- TODO: Notifications -->
+    <string name="channel_id">me.brunofelix.bingewatch</string>
+    <string name="channel_name">BINGE WATCH NAME</string>
+    <string name="channel_description">BINGE WATCH DESCRIPTION</string>
+    <string name="notify_title">{replace}</string>
+    <string name="notify_content">Go binge-watch the series!</string>
+
+    <!-- TODO: MainActivity texts -->
+    <string name="txt_btn_retry">Retry</string>
+
+    <!-- TODO: Dialogs -->
+    <string name="btn_dialog_ok">OK</string>
+    <string name="btn_dialog_cancel">Cancel</string>
+    <string name="btn_dialog_yes">Yes</string>
+    <string name="btn_dialog_no">No</string>
+    <string name="title_dialog_sort_by">Sort by?</string>
+    <string name="title_dialog_delete">Delete series</string>
+    <string name="msg_dialog_delete">Are you sure you want to delete %s?</string>
+    <string name="save">Save</string>
+</resources>

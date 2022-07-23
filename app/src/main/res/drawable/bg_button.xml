@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- ###### ESTADO PRESSIONADO ###### -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+
+            <!-- Radius quando pressionado -->
+            <corners android:radius="32dp" />
+
+            <!-- Tamanho e cor da linha da borda quando pressionado -->
+            <stroke android:width="0dip" android:color="#fff" />
+
+            <!-- Cores do botão quando pressionado -->
+            <gradient android:angle="360"
+                android:startColor="@color/secondary_color"
+                android:endColor="@color/secondary_color" />
+        </shape>
+    </item>
+
+    <!-- ###### ESTADO NORMAL ###### -->
+    <item android:state_pressed="false">
+        <shape android:shape="rectangle">
+
+            <!-- Radius -->
+            <corners android:radius="32dp" />
+
+            <!-- Tamanho e cor da linha da borda -->
+            <stroke android:width="0dip" android:color="#fff" />
+
+            <!-- Cores do botão -->
+            <gradient
+                android:angle="360"
+                android:startColor="@color/primary_color"
+                android:endColor="@color/primary_color" />
+        </shape>
+    </item>
+</selector>

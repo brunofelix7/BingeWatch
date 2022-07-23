@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TODO: Preference theme select labels -->
+    <string-array name="items_label">
+        <item>@string/label_auto</item>
+        <item>@string/label_night_off</item>
+        <item>@string/label_night_on</item>
+    </string-array>
+
+    <!-- TODO: Preference theme select values -->
+    <string-array name="items_value">
+        <item>@string/value_auto</item>
+        <item>@string/value_night_off</item>
+        <item>@string/value_night_on</item>
+    </string-array>
+</resources>
